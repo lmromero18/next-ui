@@ -1,10 +1,6 @@
-import {
-    PlayIcon,
-    SparklesIcon
-} from "@heroicons/react/24/outline";
-import Image from "next/image";
 import Link from "next/link";
 import SubMenuItem from "./SubMenuItem";
+import Image from "next/image";
 
 export default function Submenu() {
 
@@ -52,9 +48,11 @@ export default function Submenu() {
 
             {/* Columna derecha*/}
             <div className="w-full lg:w-1/2 bg-gray-50 p-8 flex flex-col">
-                <img
+                <Image
                     src="/Image-wrap.svg"
                     alt="Image-wrap."
+                    width={40}
+                    height={40}
                     className="w-full h-40 object-cover rounded" /* h-32 → h-40 */
                 />
                 <h4 className="mt-6 text-md font-semibold text-gray-900"> {/* text-lg → text-md */}

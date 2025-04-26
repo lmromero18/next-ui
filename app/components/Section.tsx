@@ -52,9 +52,9 @@ export default function Section() {
                                     />
                                     <p className="text-xs font-light opacity-80 text-white mt-1">
                                         We care about your data in our{" "}
-                                        <a href="/" className="underline">
+                                        <Link href="/" className="underline">
                                             privacy policy
-                                        </a>
+                                        </Link>                                   
                                         .
                                     </p>
                                 </div>
