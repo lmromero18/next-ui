@@ -56,7 +56,7 @@ export default function Submenu() {
                     className="w-full h-40 object-cover rounded" /* h-32 → h-40 */
                 />
                 <h4 className="mt-6 text-md font-semibold text-gray-900"> {/* text-lg → text-md */}
-                    We've just released an update!
+                    We&apos;ve just released an update!
                 </h4>
                 <p className="mt-4 text-base text-gray-500 flex-1"> {/* text-sm → text-base */}
                     Check out the all new dashboard view. Pages now load faster.
