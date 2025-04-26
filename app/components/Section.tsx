@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Section() {
     return (
-        <div className="pb-24 md:pb-72 md:px-32 px-2">
+        <div className="pb-24 md:pb-80 md:px-32 px-2">
             <div className="mt-5">
                 <div
                     className="
@@ -16,7 +16,7 @@ export default function Section() {
                     text-white text-center space-y-4
                     w-full
                     overflow-visible
-                    pb-[50px] md:pb-[300px]
+                    pb-[50px] md:pb-[200px]
                     "
                 >
                     {/* Contenido principal */}
@@ -76,9 +76,9 @@ export default function Section() {
                     <div
                         className="
                           absolute left-1/2 top-full
-                          transform -translate-x-1/2 -translate-y-1/2
+                          transform -translate-x-1/2 -translate-y-1/3
                           z-10
-                          w-[280px]        sm:w-[450px]      md:w-[650px]      lg:w-[950px]
+                          w-[280px]        sm:w-[450px]      md:w-[650px]      lg:w-[1000px]
                         "
                     >
                         <div className="relative w-full">

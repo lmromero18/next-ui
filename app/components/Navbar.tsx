@@ -56,7 +56,7 @@ const Navbar = () => {
     );
 
     return (
-        <header className="py-2 px-4 md:px-12 xl:px-32">
+        <header className="py-2 px-4 md:px-12 xl:px-32 mt-2">
             <nav className="flex justify-between items-center">
 
                 {/* Logo + Desktop menú */}
